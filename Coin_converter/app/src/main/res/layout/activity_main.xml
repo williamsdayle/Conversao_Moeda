@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <EditText
+        android:id="@+id/valor_moeda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:hint="Moeda"
+        android:inputType="numberDecimal"
+        android:textColor="#595959"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="?android:attr/colorAccent"
+        android:padding="10dp"
+        android:text="Converter Moeda"
+        android:textColor="#FDFDFD"
+        android:textSize="22sp" />
+
+    <Spinner
+        android:id="@+id/moedasTroca"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Moeda de "
+        android:entries="@array/Moedas" />
+
+    <ListView
+        android:id="@+id/lista_moedas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

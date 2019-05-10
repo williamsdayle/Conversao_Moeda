@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Coin_converter</string>
+    <string name="button">Button</string>
+
+    <string-array name = "Moedas">
+        <item> </item>
+        <item>Dolar</item>
+        <item>Real</item>
+        <item>Euro</item>
+        <item>Franco Suiço</item>
+        <item>Rupia Indiana</item>
+        <item>Bitcoin</item>
+    </string-array>
+</resources>
